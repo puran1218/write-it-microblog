@@ -28,6 +28,21 @@ The app uses a static HTML/CSS/JavaScript shell and does not require an account.
 **Note:** This plug-in adds an independent page at `/zi/`. It does not
 change your blog homepage or navigation. Add a link from your blog if desired.
 
+## Polyphonic characters / 多音字
+
+The first reviewed reading groups cover **缝、长、行、重、乐**.
+In the character view, switch between pronunciations to see an easy-to-read
+meaning and example words that use that particular reading. Tone-aware pinyin
+search also supports queries such as `feng2` and `feng4`.
+
+More common polyphonic characters are in an editorial review queue, not
+automatically published from unverified dictionary guesses.
+
+**Release dependency:** This app shell requests the source repo's immutable
+`@data-v2` snapshot. The `data-v2` Git tag and CDN files must exist before
+Micro.blog plug-in `2.0.4` is installed. If you're maintaining an existing
+installation, do not update before that release is confirmed.
+
 ## Offline use, storage and privacy
 
 Write It caches its app shell and downloaded character data using a Service
