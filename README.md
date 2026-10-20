@@ -30,13 +30,18 @@ change your blog homepage or navigation. Add a link from your blog if desired.
 
 ## Polyphonic characters / 多音字
 
-The first reviewed reading groups cover **缝、长、行、重、乐**.
-In the character view, switch between pronunciations to see an easy-to-read
-meaning and example words that use that particular reading. Tone-aware pinyin
-search also supports queries such as `feng2` and `feng4`.
+The updated dictionary indexes alternative readings for **582 characters**
+from a pinned modern dictionary source. Five characters (缝、长、行、重、乐)
+have complete child-friendly meanings and examples; other indexed characters
+show their readings while their teaching notes are being prepared.
 
-More common polyphonic characters are in an editorial review queue, not
-automatically published from unverified dictionary guesses.
+In the character view, switch between pronunciations; when reviewed examples
+are available, meanings and example words match the selected reading.
+Tone-aware pinyin search also supports queries such as `feng2` and `feng4`.
+
+A full corpus audit found 3,459 multiple-reading candidates. The 2,877
+merged-source-only entries need further review and are **not automatically
+published** as verified everyday pronunciations.
 
 **Release dependency:** This app shell requests the source repo's immutable
 `@data-v2` snapshot. The `data-v2` Git tag and CDN files must exist before
